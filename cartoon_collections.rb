@@ -16,5 +16,4 @@ end
 
 def find_the_cheese(cheeses)
   cheeses.detect{|cheese| "cheddar" || "gouda" || "camembert"}
-  cheese_types = ["cheddar", "gouda", "camembert"]
 end
